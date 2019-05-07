@@ -1,0 +1,67 @@
+.game_color, a.game_color { color: #004C9F !important}
+.game_color_bg { background-color: #004C9F }
+
+.infotable th, .data th, .datatab th.databox_header, #blo_top, .tabimage_long, .stats th, .matchup th { 
+    background-color: #004C9F;
+}
+.data.bgPlain th {background-color:#fff; color:#000; border-top: 1px solid #000; border-bottom: 1px solid #000; }
+.data thead {border: 1px solid #004C9F;}
+
+.navtabtxt { 
+    background-color: #004C9F;
+    color: #FFF;
+}
+
+.gridrow { background-color: #CCC; }
+
+.datatab { border-spacing: 1px  }
+
+#blo_menu a.standard    { color: #ccc !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:visited    { color: #ccc !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:hover    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:active    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+
+#blo_menu a.choice    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:visited    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:hover    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:active    { color: #fff !important; font: bold 10px Verdana; text-decoration: none !important; }
+
+#rtBarUnit div.hIn { font:bold 11px Verdana; border-top:1px solid #fff; border-bottom:1px solid #fff; background-color:#004C9F; color:#fff; padding:3px 7px 3px 7px; }
+#rtBarUnit div.content { padding:3px 7px 10px 7px; color:#004C9F; }
+#rtBarUnit table { margin:10px 0px 10px 0px; color:#004C9F; }
+
+
+
+
+#rightBar { background-color:#4399CC;}
+#rightBar div.separator { background-color:#0E7DC2 !important; }
+#rightBar .trophyTitle { border-top:1px solid #DFD7B5; border-bottom:1px solid #DFD7B5; color:#DFD7B5;  background-color:#4399CC}
+
+p.trophyTitle { border-bottom:1px solid #054755; color:#D1E4EF; background-color:#4399CC; text-align:center; padding:2px; }
+
+#welcomeMsg07 .title {color: #004C9F}
+#welcomeMsg07 .content { border-top:1px solid #004C9F; border-bottom:1px solid #004C9F; }
+
+.listing {
+    width: 99%;
+}
+
+.listing tr td {
+    padding: 3px 2px;
+}
+
+
+#splash #left_main {
+    background: url('http://i.sportingnews.com/baseball/images/splash_left_bg.gif') repeat-y left #FFFFFF;
+    border-bottom: 1px dashed #9CC5DB;
+}
+
+#splash .more td.border {
+    border-right: 1px dashed #9CC5DB;
+}
+#splash #price { background-color: #9FB6C4 }
+
+p.lightLine { border-bottom-color: #A3C2D6 !important }
+p.line { border-bottom-color: #A3C2D6 !important }
+p.dottedLine { border-bottom-color: #A3C2D6 !important }
+p.dashedLine { border-bottom-color: #A3C2D6 !important }

@@ -1,0 +1,6 @@
+<tr><td class='row2'>第1名</td><td class='row2'>The Lions</td><td class='row2'>321分</td></tr>
+	<tr><td class='row2'>第2名</td><td class='row2'>(^╳^)  (^儿^) |(^ˍ^)|</td><td class='row2'>316分</td></tr>
+	<tr><td class='row2'>第3名</td><td class='row2'>疝氣兩光嘔像隊</td><td class='row2'>312分</td></tr>
+	<tr><td class='row2'>第4名</td><td class='row2'>BOS 18 Matsuzak</td><td class='row2'>307分</td></tr>
+	<tr><td class='row2'>第5名</td><td class='row2'>必殺烈風正拳突</td><td class='row2'>289分</td></tr>
+	

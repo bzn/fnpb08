@@ -1,0 +1,6 @@
+<tr><td class='row2'>第1名</td><td class='row2'>冷徹なる蝶‧張春華</td><td class='row2'>745分</td></tr>
+	<tr><td class='row2'>第2名</td><td class='row2'>動感幼稚園</td><td class='row2'>696分</td></tr>
+	<tr><td class='row2'>第3名</td><td class='row2'>NPB</td><td class='row2'>684分</td></tr>
+	<tr><td class='row2'>第4名</td><td class='row2'>戀戀高校男公關部</td><td class='row2'>672分</td></tr>
+	<tr><td class='row2'>第5名</td><td class='row2'>嬰兒車掰七</td><td class='row2'>659分</td></tr>
+	

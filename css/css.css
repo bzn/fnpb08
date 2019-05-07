@@ -1,0 +1,226 @@
+/***********************************************************************************
+BASIC
+***********************************************************************************/
+HTML {
+    PADDING : 0;
+    MARGIN : 0;
+    FONT : 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif "新細明體", "細明體";
+/*    OVERFLOW : hidden;*/
+}
+/*隱藏Body的Scroll Bar用container的Scroll Bar取代*/
+BODY {
+    PADDING : 0;
+    MARGIN : 0;
+    FONT : 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif "新細明體", "細明體";
+/*    OVERFLOW : hidden;*/
+		text-align:center;
+}
+
+IMG {
+    BORDER : 0px;
+}
+
+TABLE {
+    FONT : 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif "新細明體", "細明體";    
+}
+
+LI {
+	line-spacing : 2px;
+}
+
+FORM {
+    MARGIN : 0;
+    PADDING : 0;
+}
+a:visited {color: #0000CC;}
+a:link {color: #0000CC;}
+a{text-decoration:none ; } 
+a:hover {text-decoration:underline ; }
+/***********************************************************************************
+ID
+***********************************************************************************/
+/*主要的container，取代Body的Scroll Bar*/
+#container {
+    margin : 0px auto;
+    width : 900px;
+/*    HEIGHT : 100%;*/
+    text-align : center;
+/*    POSITION : relative;*/
+/*    OVERFLOW-Y : auto;*/
+}
+/*container的inner*/
+#inner {
+    margin : 0px auto;
+    WIDTH : 770px;
+/*    HEIGHT : 100%;*/
+    TEXT-ALIGN : center;
+    DISPLAY : block;
+}
+
+#banner {
+    PADDING : 0px;
+    MARGIN : 1px;
+    WIDTH : 770px;
+    POSITION : static;
+    TEXT-ALIGN : left;
+}
+/*底層顯示copyright的部份*/
+#bottom{
+    position : fixed;
+    RIGHT : 20px;
+    BOTTOM : 0px;
+}
+
+#fix {
+    POSITION : absolute;
+    BOTTOM : 0px;
+}
+
+#info {
+    PADDING : 0px;
+    MARGIN : 2px;
+    WIDTH : 95%;
+    POSITION : static;
+}
+/*首頁左半部DIV*/
+#left {
+    MARGIN : 0;
+    PADDING : 1;
+    WIDTH : 69%;
+    HEIGHT : 100%;
+    DISPLAY: inline;
+    MIN-HEIGHT: 1px;
+    FLOAT: left;
+    POSITION: static;
+}
+/*首頁右半部DIV*/
+#right {
+    MARGIN : 0;
+    PADDING : 0;
+    WIDTH : 29%;
+    HEIGHT : 100%;
+    DISPLAY: inline;
+    MIN-HEIGHT: 1px;
+    FLOAT: right;
+    POSITION: static;
+}
+/*新聞*/
+#news {
+    MARGIN : 0;
+    PADDING : 0;
+    BORDER : solid 1px #CCC;
+    BACKGROUND-COLOR : #EEE;
+}
+
+/*登入*/
+#login {
+    MARGIN : 0;
+    PADDING : 0;
+}
+
+/*連結*/
+#link {
+    MARGIN : 5 0 0 0 px;
+    PADDING : 1;
+    BORDER : solid 1px #CCC;
+    BACKGROUND-COLOR : #EEE;
+}
+
+/*DISCUZ*/
+#discuz {
+    MARGIN : 5 0 0 0 px;
+    PADDING : 1;
+    BORDER : solid 1px #CCC;
+    BACKGROUND-COLOR : #EEE;
+}
+/***********************************************************************************
+CLASS
+***********************************************************************************/
+.class_btn{
+	font-family : new times rome,細明體;
+	font-size : 11px;
+	/*font-weight : bold;*/
+	color : #000000;
+	padding : 2 0 0 0pt;
+	height : 21px;
+	border : 1px solid #000080;
+	filter : progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFFFF', EndColorStr='#FFD7CFC7');
+}
+
+.class_input{
+    font-size : 11px;
+    height : 20px;
+}
+
+.class_table {
+    font-size : 11px;
+}
+
+.class_select{
+    font-size : 11px;
+}
+
+.row-title {
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	white-space: nowrap;
+	background: #336699;
+}
+
+.row-white{
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #000000;
+	white-space: nowrap;
+    background: #FFFFFF;
+}
+
+.row-gray{
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #000000;
+	white-space: nowrap;
+    background: #DDDDDD;
+}
+
+.news-title{
+    FONT : 11px bold;
+}
+
+.news-time{
+    FONT : 11px;
+    TEXT-ALIGN : right;
+    MARGIN-LEFT : 12px;
+}
+
+.news-content{
+    WIDTH : 95%;
+    FONT : 11px;
+    BORDER : solid 1px #CCC;
+    BACKGROUND-COLOR : #EEE;
+    MARGIN-LEFT : 12px;
+    PADDING : 2px;
+}
+
+.menu-main{
+    FONT : 11px;
+    COLOR : #FFFFFF;
+    BACKGROUND : #004C9F;
+}
+
+.menu-sub{
+    FONT : 11px;
+    BACKGROUND : #DDDDDD;
+}
+/***********************************************************************************
+首頁排行榜
+***********************************************************************************/
+#RankPoint a:visited {color: #0000CC;}
+#RankPoint a:link {color: #0000CC;}
+#RankPoint a{text-decoration:none ; } 
+#RankPoint a:hover {text-decoration:underline ; }
+#RankPoint {height:100;}

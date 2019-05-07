@@ -1,0 +1,47 @@
+.TabDiv{
+    BORDER-BOTTOM : 1px solid silver;
+    WIDTH : 98%;
+}
+
+.TabDiv .Selected{
+    BORDER-TOP : 2px;
+    BORDER-TOP-STYLE : double;
+    BORDER-TOP-COLOR : orange;
+
+    BACKGROUND-COLOR : #FFFFFF;
+    FONT-WEIGHT : bold;
+    COLOR : #000000;
+
+    POSITION: relative;
+    TOP : 3px;
+    DISPLAY : inline;
+}
+
+.TabDiv INPUT
+{
+    BORDER-TOP : 1px;
+    BORDER-RIGHT : 1px;
+    BORDER-BOTTOM : 0px;
+    BORDER-LEFT : 1px;
+    BORDER-STYLE : solid;
+    BORDER-COLOR : silver;
+    
+    PADDING : 2px;
+    BACKGROUND-COLOR : #FFFFFF;
+    COLOR : #000000;
+    FONT : 11px;
+
+    POSITION: relative;
+    TOP: 1px;
+}
+
+.PageDiv{
+    BORDER-TOP : 0px;
+    BORDER-RIGHT : 1px;
+    BORDER-BOTTOM : 1px;
+    BORDER-LEFT : 1px;
+    BORDER-STYLE : solid;
+    BORDER-COLOR : silver;
+    
+    WIDTH : 98%;
+}

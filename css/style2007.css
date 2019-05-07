@@ -1,0 +1,693 @@
+table, div { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+
+a:link 			{color: #009}    /* blue */
+a:visited       {color: #009}    /* blue */
+a:hover 		{color: #009}    /* dark redish */
+a:active 		{color: #600}    /* dark redish */
+
+a.userid          { color:#990000; text-decoration:none; }
+a.userid:hover    { text-decoration:underline; }
+a.userid:active   { text-decoration:underline; }
+
+p {
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+
+/* list - bullets */
+#bulletList ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 10px;
+	text-indent: -9px;
+}
+#bulletList li {
+    margin-bottom: 7px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#bulletList ul.nospace li {
+    margin-bottom: 2px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#bulletList ul.sm li {
+    margin-bottom: 4px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#bulletList li.nospace {
+    margin-bottom: 2px;
+}
+#bulletList li.sm {
+    margin-bottom: 4px;
+    text-indent: -8px;
+}
+
+
+/* subnav styles */
+#blo_nav {
+    margin-bottom: 2px;
+}
+#blo_nav div {
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+#blo_top  { 
+    width: 100%;
+    background-color: #999; 
+    border: none;
+    margin: 0px; 
+    padding: 4px 6px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    font: normal 10px Verdana;
+}
+
+#blo_menu {
+    width: auto;
+    color: #aaa;
+    float: left;
+    padding-top: 3px;
+}
+#blo_team {
+    width: auto;
+    float: right;
+    text-align: right;
+}
+#blo_nav ul  { 
+    width: 100%;
+    background-color: #DDD; 
+    border: none;
+    color: #000; 
+    margin: 0px; 
+    padding: 4px 6px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+#blo_nav ul li  { 
+    display: inline;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+#blo_nav ul.bottom  { 
+    clear: both;
+    background-color: #DDD; 
+    border: none;
+    display: none;
+    font: normal 10px Verdana;
+    line-height: 18px;
+}
+
+#blo_nav ul.bottom a         { color: #000; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:visited { color: #000; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:hover   { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:active  { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+
+
+div.icon { background-color:#aaaaaa; width:7px; height:7px; line-height:7px; margin:6px 5px 0px 0px; }
+
+
+
+
+/* splash pages *******************************************/
+#splash { width:780px; }
+#splash .left_column  { width:514px; float:left; margin-left:0px; }    
+#splash .right_column { width:250px; float:right; } 
+#splash .left_column_top  { width:95px; float:left; margin:0px; padding:0px; }    
+#splash .right_column_top { width:395px; float:left; margin:3px 0px; padding:0px; } 
+
+#splashHome { width:780px; }
+#splashHome .left_column  { width:91px; float:left; margin-left:0px; }    
+#splashHome .right_column { width:659px; float:left; } 
+#splashHome .padding { padding:5px 10px 0px 10px; } 
+
+#splash #price { background-color:#BFBFBF; }
+#splash #price table { width:100%; margin:0px auto; padding:5px 0px 5px 0px; }
+#splash #price tr { height:30px; }
+#splash #price .td1 { padding-left:13px; font:bold 12px Verdana; }
+#splash #price .td2 { font:bold 12px Verdana; color:#fff; }
+#splash #price .td2b { font:bold 12px Verdana; }
+#splash #price .td3 { font-size:13px; color:#c00; }
+#splash #price .tdLineT { font:normal 10px Verdana; color:#fff; text-decoration:line-through; font-style:italic; }
+
+#rtBarUnit { background-color:#dcdcdc; }
+#rtBarUnit div.hOut { border-top:1px solid #000; border-bottom:1px solid #000; }
+#rtBarUnit div.hIn { font:bold 11px Verdana; border-top:1px solid #fff; border-bottom:1px solid #fff; background-color:#007700; color:#fff; padding:3px 7px 3px 7px; }
+#rtBarUnit div.content { padding:3px 7px 10px 7px; color:#007700; }
+#rtBarUnit div.icon { background-color:#aaaaaa; width:7px; height:7px; line-height:7px; margin:6px 5px 0px 0px; }
+#rtBarUnit table { margin:10px 0px 10px 0px; color:#007700; }
+#rtBarUnit a { color:#FFF; }
+
+#rightBar { width:100%; background-color:#D6A90E; color:#fff; }
+#rightBar div.separator { background-color:#8D6C06; line-height:5px; }
+#rightBar p { padding:7px; }
+#rightBar .trophyTitle { border-top:1px solid #8D6C06; border-bottom:1px solid #8D6C06; color:#8D6C06; text-align:center; padding:2px; }
+#rightBar .powerRnk { padding-top:5px; padding-bottom:5px; }
+
+#splash #left_main {
+    background-color: #FFFFFF;
+    border-bottom: 1px dashed #CCC;
+}
+/* splash pages *******************************************/
+
+/* prize pages************/
+p.trophyTitle { border-bottom:1px solid #8D6C06; color:#8D6C06; background-color:#D6A90E; text-align:center; padding:2px; }
+/* prize pages************/
+
+
+
+
+/* 2 column layout */
+#frontoffice {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#frontoffice .leftCol {
+    width: 460px;
+    float: left;
+}
+
+#frontoffice .rightCol {
+    width: 300px;
+    float: right;
+}
+
+
+
+/* WELCOME msg area ***************************************/
+#welcomeMsg { 
+    background-color:#445588; 
+    padding:7px;     
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    width: 100%; 
+}
+#welcomeMsg td { font:normal 12px arial; color:#fff;}
+
+#welcomeMsg07 { font-size:10px; padding:0px; margin:0px; }
+#welcomeMsg07 .header { padding:5px; }
+#welcomeMsg07 .title {font:bold 16px Verdana; font-style:italic; padding-bottom:4px;}
+#welcomeMsg07 .content { background:#eee; border-top:1px solid #000; border-bottom:1px solid #000; }
+#welcomeMsg07 td.contentText { padding:5px 0px 5px 5px; }
+#welcomeMsg07 p { margin:5px 0px; padding:0px; }
+#welcomeMsg07 a:link      { color: #000; }
+#welcomeMsg07 a:visited   { color: #000; }
+#welcomeMsg07 a:hover     { color: #ee0000; }
+#welcomeMsg07 a:active    { color: #000; }
+
+
+/* INFO-help section **************************************/
+#info {
+    width: 100%;
+    background-color: #DDDDEE;
+    padding-top: 5px;
+    border-bottom: 5px solid #445588;
+}
+#info table.header {
+    width: 304px;
+    padding: 3px;
+    margin-left: 3px;
+    border: 1px solid #445588;
+    background-color: #fff;
+}
+#info table.header td.title {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+}
+#info table.header td.link {
+    font-size: 9px;
+    text-align: right;
+}
+#info table.header td.link a		    {color: #000;}
+#info table.header td.link a:visited 	{color: #000;}
+#info table.header td.link a:hover 	{color: #e00;}
+#info table.header td.link a:active 	{color: #e00;}
+#info div.text {
+    font-size: 10px;
+    padding:3px 8px 10px 8px;
+}
+#info div.text ul li {
+    padding: 2px 0px;
+}
+#info table.list td { padding:3px 3px 3px 0px; }
+/* INFO-help section **************************************/
+
+
+
+
+.bgbox {
+    padding: 3px;
+    padding-bottom: 0px;
+    background: #EEE;
+    border-bottom: 3px solid #DDD;
+}
+
+* html .bgbox  { /*IE fix*/
+	width: 100%;
+}
+
+
+.bgboxInside {
+    margin-top: 5px;
+    padding: 4px;
+    background: #EEE;
+    border-top: 1px solid #000;
+}
+* html .bgboxInside  { /*IE fix*/
+	width: 100%;
+}
+
+
+.box {
+    background-color : #FFFFFF;	
+    padding: 5px; 
+    border: 1px solid #666; 
+    width: 100%; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 12px;
+}
+
+.box a:link     { text-decoration: none; }
+.box a:visited  { text-decoration: none; }
+.box a:hover    { text-decoration: underline; }
+.box a:active   { text-decoration: underline; }
+
+/* tabs */
+.tab {
+    color: #000;
+	font-size: 11px;
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+.tab td {
+    padding: 3px 7px 3px 5px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.tab td.active {
+    color: #fff;
+    background-color: #444;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #eee;
+}
+
+.tab td a:link 		{color: #000; text-decoration: none; }
+.tab td a:visited 	{color: #000; text-decoration: none; }
+.tab td a:hover 	{color: #e00; text-decoration: none; }
+.tab td a:active 	{color: #e00; text-decoration: none; }
+.tab td.active a:link 		{color: #fff; text-decoration: none; }
+.tab td.active a:visited 	{color: #fff; text-decoration: none; }
+.tab td.active a:hover 	    {color: #e00; text-decoration: none; }
+.tab td.active a:active 	{color: #e00; text-decoration: none; }
+
+
+
+/* header styles */
+.data_header {
+    width: 100%;
+    border: none;
+    border-spacing: 0px;
+}
+
+.data_header td { 
+    padding: 3px 5px;
+}
+
+.data_header td.title {
+	font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFF;
+}
+
+.data_header td.title_small {
+	font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.data_header td.link {
+    font-size: 9px;
+    text-align: right;
+}
+
+.data_header tr td {
+    background-color: #444;
+    color: #FFF;
+    line-height: 16px;
+}
+
+.data_header tr td a:link       {color: #fff; text-decoration: none }    /* white */
+.data_header tr td a:visited    {color: #fff; text-decoration: none }    /* white */
+.data_header tr td a:hover      {color: #ff0; text-decoration: underline }    /* yellow */
+.data_header tr td a:active     {color: #ff0; text-decoration: underline }    /* yellow */
+
+.navtabtxt a:link       {color: #fff; text-decoration: underline; margin-right: 3px }    /* white */
+.navtabtxt a:visited    {color: #fff; text-decoration: underline; margin-right: 3px }    /* white */
+.navtabtxt a:hover      {color: #ff0; text-decoration: underline; margin-right: 3px }    /* yellow */
+.navtabtxt a:active     {color: #ff0; text-decoration: underline; margin-right: 3px }    /* yellow */
+
+
+.headerSubText {
+    font-size: 9px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+/* tables */
+.data {
+    width: 100%;
+    background: #fff;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #DDD;
+}
+
+.data th {
+    color: #fff;
+    background-color: #999;
+    padding: 3px 5px 3px 5px;
+	font-size: 10px;
+    border: none;
+}
+
+.data th a {
+    font-size: 9px;
+    font-weight: normal;
+}
+
+#dnt_research .data th a {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.data tr.neutral td {
+    color: #fff;
+    background-color:#999;
+    font-size: 9px;
+    
+    border: none;
+    white-space: nowrap;
+}
+
+.data tr.dark td {
+    color: #fff;
+    background-color:#666;
+    font-size: 9px;
+    font-weight: bold;
+    border: none;
+}
+
+.data td {
+    font-size: 10px;
+    color: #000;
+    padding: 3px 5px 3px 5px;
+    border: none;
+    /* white-space: nowrap; */
+}
+
+
+.data tr.border td, .data tr.border th {
+    border-right: 1px solid #F5F5F5;
+}
+
+.data tr th.border, .data tr td.border {
+    border-right: 1px solid #F5F5F5;
+}
+.data.topLine th {
+    border-top: 1px solid #F5F5F5;
+}
+
+
+
+.data .neutral td a:link 	{color: #fff; text-decoration: underline }    /* white */
+.data .neutral td a:visited {color: #fff; text-decoration: underline }    /* white */
+.data .neutral td a:hover 	{color: #ff0; text-decoration: underline }    /* yellow */
+.data .neutral td a:active 	{color: #ff0; text-decoration: underline }    /* yellow */
+
+
+
+.data .neutral td.sorted {
+    background-color: #A22;
+}
+
+.data td a:link { text-decoration: none; color: #009 }
+.data td a:visited { text-decoration: none; color: #009 }
+.data td a:hover { text-decoration: underline; color: #600 }
+.data td a:active { text-decoration: underline; color: #600 }
+
+.data td.yellow { border-top: solid 1px #E5E5E5; border-bottom: solid 1px #E5E5E5; }
+
+.data td span.header_link { text-decoration: underline !important; cursor: pointer !important; } 
+
+#standings .standings_inside { height: 700px; overflow: auto }
+
+#standings .data td a { font-size: 11px }
+
+
+#playerRight .data td {
+    font-size: 9px;
+    padding: 4px 2px;
+    white-space: nowrap;
+}
+
+#playerRight .data th {
+    font-size: 9px;
+    padding: 4px 2px;
+    white-space: nowrap;
+}
+
+
+
+
+/* styles for table title */
+.tableTitle {
+    width: 100%;
+    margin: 1px 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.tableTitle tr.dark {
+    background-color: #DDD;
+    border-top: 1px solid #000
+}
+
+.tableTitle tr.dark td {
+    padding: 4px;
+}
+
+.tableTitle tr td.title {
+    font: bold 11px Verdana;
+    text-align: left;
+    padding-left:3px;
+}
+
+.tableTitle tr td.titleLink {
+    font: normal 9px Verdana;
+    text-align: right;
+}
+
+.tableTitle tr td.titleLink a {
+    font: normal 9px Verdana;
+}
+
+.tableTitle tr td.titleLink a:link      { color: #000; }
+.tableTitle tr td.titleLink a:visited   { color: #000; }
+.tableTitle tr td.titleLink a:hover     { color: #000; }
+.tableTitle tr td.titleLink a:active    { color: #000; }
+
+
+
+/* styles for listing table */
+.listing {
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 3px solid #DDD;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.listing tr th {
+    font: bold 11px Verdana;
+    text-align: left;
+    border: none;
+    padding-bottom: 5px;
+}
+
+.listing tr td {
+    padding: 2px 2px 2px 10px;
+}
+
+.listing tr th.titleLink {
+    font: normal 9px Verdana;
+    text-align: right;
+}
+
+.listing tr th.titleLink a {
+    font: normal 9px Verdana;
+}
+
+.listing tr th.titleLink a:link      { color: #000; }
+.listing tr th.titleLink a:visited    { color: #000; }
+.listing tr th.titleLink a:hover     { color: #000; }
+.listing tr th.titleLink a:active    { color: #000; }
+
+#frontoffice .listing tr td a:link { text-decoration: none }
+#frontoffice .listing tr td a:visited { text-decoration: none }
+#frontoffice .listing tr td a:hover { text-decoration: underline }
+#frontoffice .listing tr td a:active { text-decoration: underline }
+
+
+/* styles for fo inbox */
+.inbox {
+    width: 100%;
+    border-bottom: 3px solid #DDD;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.inbox tr th {
+    font: bold 11px Verdana;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #666;
+    padding-bottom: 3px;
+    padding-left: 4px;
+}
+
+.inbox tr td {
+    padding: 4px 3px;
+}
+
+.inbox tr th.link {
+    font: normal 9px Verdana;
+    text-align: right;
+}
+
+.inbox tr th.link a {
+    font: normal 9px Verdana;
+}
+
+.inbox tr th.link a:link      { color: #000; }
+.inbox tr th.link a:visited    { color: #000; }
+.inbox tr th.link a:hover     { color: #000; }
+.inbox tr th.link a:active    { color: #000; }
+
+
+
+
+
+
+
+/* styles for standings section */
+.data.standings td {
+    font-size: 12px;
+}
+
+
+
+/* styles for standings section */
+#standings.data_header tr {
+    background-color: #444;
+}
+
+
+
+
+/* matchup td style */
+.matchup td {
+    font-size: 10px;
+    color: #000;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #FFF;
+    height: 35px;
+}
+
+.matchup td.first {
+    border-left: 1px hidden #000;
+}
+.matchup td.last {
+    border-right: 1px hidden #000;
+}
+
+.matchup tr.total_top td {
+    border-bottom: 1px solid #000;
+    height: 1px;
+    line-height: 1px;
+    padding: 0px;
+}
+
+.matchup tr.total td {
+    text-align: right;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+/* other pages */
+#headerSection {
+    padding:4px 5px 0px 5px;
+}
+#headerSection .pageTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+#headerSection p.dottedLine {
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+
+/* footnotes */
+#footnote {
+    width: 100%;
+}
+#footnote td {
+    font-size: 9px;
+    font-style: italic;
+}
+#footnote td.norm {
+    font-size: 9px;
+    font-style: normal;
+}
+#footnote.standings {
+    padding:5px;
+}
+
+
+
+
+.playerSort {
+    width: 100%;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;    
+}
+
+.playerSort td {
+    padding: 3px 3px;
+    line-height: 16px;
+    vertical-align: bottom;
+}
+
+
+
+
+#predraft_info { border: 1px solid #000; }
+#predraft_info a:link { text-decoration: none; }
+#predraft_info a:visited { text-decoration: none; }
+#predraft_info a:hover { text-decoration: underline; }
+#predraft_info a:active { text-decoration: underline; }
+    

@@ -1,0 +1,1669 @@
+/****************************************************************************************************
+ ****************************************************************************************************
+ *                                                                                                 	*
+ *                                                                                                 	*
+ *                                 added 05/05/05 5:55pm by jballow.                                *
+ *                   this begins the long process of a centralized style sheet                      *
+ *                                                                                                 	*
+ *                                                                                                 	*
+ ****************************************************************************************************
+ ****************************************************************************************************/
+ 
+ 
+ 
+ 
+/*********************************************
+ ***                                       ***
+ ***               Font Styles             *** 
+ ***                                       ***
+ *********************************************/
+ 
+
+.bold, .b           { font-weight:  bold !important   }
+.italic, .i         { font-style:   italic !important  }
+.u                  { text-decoration: underline !important }
+
+
+
+/* Arial is better for font sizes 15px and larger */
+.a9 					{ font: normal  9px Arial }
+.a10					{ font: normal 10px Arial }
+.a11					{ font: normal 11px Arial }
+.a12					{ font: normal 12px Arial }
+.a13					{ font: normal 13px Arial }
+.a14					{ font: normal 14px Arial }
+.a15					{ font: normal 15px Arial }
+.a16					{ font: normal 16px Arial }
+.a17					{ font: normal 17px Arial }
+.a18					{ font: normal 18px Arial }
+.a19					{ font: normal 19px Arial }
+.a20					{ font: normal 20px Arial }
+.a21					{ font: normal 21px Arial }
+.a22					{ font: normal 22px Arial }
+.a23					{ font: normal 23px Arial }
+.a24					{ font: normal 24px Arial }	
+.a25					{ font: normal 25px Arial }
+.a26					{ font: normal 26px Arial }
+.a27					{ font: normal 27px Arial }
+.a28					{ font: normal 28px Arial }
+.a29					{ font: normal 29px Arial }
+.a30					{ font: normal 30px Arial }		
+
+.a9b 					{ font: bold  9px Arial }
+.a10b					{ font: bold 10px Arial }
+.a11b					{ font: bold 11px Arial }
+.a12b					{ font: bold 12px Arial }
+.a13b					{ font: bold 13px Arial }
+.a14b					{ font: bold 14px Arial }
+.a15b					{ font: bold 15px Arial }
+.a16b					{ font: bold 16px Arial }
+.a17b					{ font: bold 17px Arial }
+.a18b					{ font: bold 18px Arial }
+.a19b					{ font: bold 19px Arial }
+.a20b					{ font: bold 20px Arial }
+.a21b					{ font: bold 21px Arial }
+.a22b					{ font: bold 22px Arial }
+.a23b					{ font: bold 23px Arial }
+.a24b					{ font: bold 24px Arial }	
+.a25b					{ font: bold 25px Arial }
+.a26b					{ font: bold 26px Arial }
+.a27b					{ font: bold 27px Arial }
+.a28b					{ font: bold 28px Arial }
+.a29b					{ font: bold 29px Arial }
+.a30b					{ font: bold 30px Arial }
+
+
+
+/* Verdana is better for font sizes 14px and smaller */
+.v9,  .text9	{ font: normal  9px Verdana }
+.v10, .text10   { font: normal 10px Verdana; }
+.v11, .text11	{ font: normal 11px Verdana }
+.v12, .text12	{ font: normal 12px Verdana }
+.v13, .text13	{ font: normal 13px Verdana }
+.v14, .text14	{ font: normal 14px Verdana }
+.v15, .text15	{ font: normal 15px Verdana }
+.v16, .text16	{ font: normal 16px Verdana }
+.v17, .text17	{ font: normal 17px Verdana }
+.v18, .text18	{ font: normal 18px Verdana }
+
+.v9b					{ font: bold  9px Verdana }
+.v10b					{ font: bold 10px Verdana }
+.v11b					{ font: bold 11px Verdana }
+.v12b					{ font: bold 12px Verdana }
+.v13b					{ font: bold 13px Verdana }
+.v14b					{ font: bold 14px Verdana }
+.v15b, .blackhead       { font: bold 15px Verdana }
+.v16b					{ font: bold 16px Verdana }
+.v17b					{ font: bold 17px Verdana }
+.v18b					{ font: bold 18px Verdana }
+
+.V10bgr, .v10bgr { font: normal 10px Verdana; background-color: #FF9999 }
+.V10bggn, .v10bggn {
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	font-size : 10px;
+	background-color : #99FF99;
+}
+
+
+
+/* potential fix for assign entire tables a font class and having it's td's use that class */
+table.v10 td, table.text10 td { font: normal 10px Verdana; }
+table.v11 td, table.text11 td { font: normal 11px Verdana }
+table.v12 td, table.text12 td { font: normal 12px Verdana }
+
+
+
+.error					{ font-weight: bold !important; color: #c00 !important; font-size: inherit; font-family: inherit; }
+
+.error9 				{ font: bold  9px Verdana; color: #c00; }
+.error10 				{ font: bold 10px Verdana; color: #c00; }
+.error11 				{ font: bold 11px Verdana; color: #c00; }
+.error12 				{ font: bold 12px Verdana; color: #c00; }
+.error13 				{ font: bold 13px Verdana; color: #c00; }
+.error14				{ font: bold 14px Verdana; color: #c00; }
+.error15 				{ font: bold 15px Arial; color: #c00; }
+.error16 				{ font: bold 16px Arial; color: #c00; }
+.error17 				{ font: bold 17px Arial; color: #c00; }
+.error18 				{ font: bold 18px Arial; color: #c00; }
+.error19 				{ font: bold 19px Arial; color: #c00; }
+.error20 				{ font: bold 20px Arial; color: #c00; }
+.error21 				{ font: bold 21px Arial; color: #c00; }
+.error22 				{ font: bold 22px Arial; color: #c00; }
+.error23 				{ font: bold 23px Arial; color: #c00; }
+.error24 				{ font: bold 24px Arial; color: #c00; }
+.error25 				{ font: bold 25px Arial; color: #c00; }
+.error26 				{ font: bold 26px Arial; color: #c00; }
+.error27 				{ font: bold 27px Arial; color: #c00; }
+.error28 				{ font: bold 28px Arial; color: #c00; }
+.error29 				{ font: bold 29px Arial; color: #c00; }
+.error30 				{ font: bold 30px Arial; color: #c00; }
+
+/* added for backwards compatibility */
+
+.ar16b { font: bold 16px Arial; } 
+
+.nounderline	{ text-decoration: none !important; }
+
+
+.red, .dltxt, .c00    { color: #C00 }
+.white          { color: #FFF }
+.gray, .grey          { color: #999 }
+
+a:link 			{color: #009}    /* blue */
+a:visited       {color: #009}    /* blue */
+a:hover 		{color: #600}    /* dark redish */
+a:active 		{color: #600}    /* dark redish */
+
+a.white:link 		{color: #fff; text-decoration: underline }    /* white */
+a.white:visited 	{color: #fff; text-decoration: underline }    /* white */
+a.white:hover 		{color: #ff0; text-decoration: underline }    /* yellow */
+a.white:active 		{color: #ff0; text-decoration: underline }    /* yellow */
+
+
+
+/* for the login strip */
+a.white_all:link, a.vw11n:link 				{color: #fff; font-weight: bold }    /* bold white */
+a.white_all:visited, a.vw11n:visited 	{color: #fff; font-weight: bold }    /* bold white */
+a.white_all:hover, a.vw11n:hover 			{color: #fff; font-weight: bold }    /* bold white */
+a.white_all:active, a.vw11n:active 		{color: #fff; font-weight: bold }    /* bold white */
+
+
+a.red:link 			{color: #f00; text-decoration: none}    /* bright red */
+a.red:visited 	    {color: #f00; text-decoration: none}    /* bright red */
+a.red:hover 		{color: #f00; text-decoration: none}    /* bright red */
+a.red:active 		{color: #f00; text-decoration: none}    /* bright red */
+
+a.c00:link 			{color: #c00; }    /* red */
+a.c00:visited 	    {color: #c00; }    /* red */
+a.c00:hover 		{color: #c00; }    /* red */
+a.c00:active 		{color: #c00; }    /* red */
+
+a.yellow:link 			{color: #ff0; text-decoration: none}    /* bright yellow */
+a.yellow:visited 	    {color: #ff0; text-decoration: none}    /* bright yellow */
+a.yellow:hover 		    {color: #ff0; text-decoration: none}    /* bright yellow */
+a.yellow:active 		{color: #ff0; text-decoration: none}    /* bright yellow */
+
+/* champions */
+a.hotPlayer:link 		{color: #5C9453; }
+a.hotPlayer:visited 	{color: #5C9453; }
+a.hotPlayer:hover 		{color: #5C9453; }
+a.hotPlayer:active 		{color: #5C9453; }
+
+a.champWhite:link 		{color: #fff; }
+a.champWhite:visited 	{color: #fff; }
+a.champWhite:hover 		{color: #fff; }
+a.champWhite:active 	{color: #fff; }
+
+a.champBlack:link 		{color: #000; }
+a.champBlack:visited 	{color: #000; }
+a.champBlack:hover 		{color: #000; }
+a.champBlack:active 	{color: #000; }
+
+
+/*********************************************
+ ***                                       ***
+ ***            All Game Styles            *** 
+ ***                                       ***
+ *********************************************/
+
+body
+{
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+    font-size: 12px;
+}
+
+
+
+#body_centered { text-align: center; }
+
+#body_popup { text-align: center; }
+#body_popup div { box-sizing: border-box; -moz-box-sizing: border-box; }
+#body_popup table { box-sizing: border-box; -moz-box-sizing: border-box; }
+
+
+
+#content { width: 780px; text-align: left; margin: 0px auto; }
+
+#content_popup { width: 620px; text-align: left; margin: 0px auto; }
+
+
+
+.border-box     { box-sizing: border-box; -moz-box-sizing: border-box; }
+.nowrap         { white-space: nowrap !important; }
+.wrap           { white-space: normal !important; }
+.ellipsis       { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* these are for fun JS div hiding/switching */
+.hidden_body    { display: none; 	}    
+.active_body    { display: block;   }
+.inline         { display: inline;  }
+
+/* text-aligns */
+.tleft 		    {	text-align : left;	}
+.tright		    {	text-align : right;		}
+.tcenter 	    {	text-align : center;	}
+
+/* floats */
+.left 		    {	float : left;	}
+.right 		    {	float : right; 	}
+
+/* clears */
+.cleft 		    {   clear : left; 	}
+.cright 	    {	clear : right; 	}
+.cboth 		    {	clear : both;	}
+
+/* vertical-aligns */
+.vtop		 	{	vertical-align : top;		}
+.vmiddle 	    {	vertical-align : middle;	}
+.vbottom 	    {	vertical-align : bottom;	}
+
+
+.margin_center { margin: 0px auto }
+
+/* margins */
+.mar1 { margin: 1px }
+.mar2 { margin: 2px }
+.mar3 { margin: 3px }
+.mar4 { margin: 4px }
+.mar5 { margin: 5px }
+.mar6 { margin: 6px }
+.mar7 { margin: 7px }
+.mar8 { margin: 8px }
+.mar9 { margin: 9px }
+.mar10 { margin: 10px }
+
+/* paddings */
+.pad1 { padding: 1px }
+.pad2 { padding: 2px }
+.pad3 { padding: 3px }
+.pad4 { padding: 4px }
+.pad5 { padding: 5px }
+.pad6 { padding: 6px }
+.pad7 { padding: 7px }
+.pad8 { padding: 8px }
+.pad9 { padding: 9px }
+.pad10 { padding: 10px }
+
+/* line-heights */
+.lh10 { line-height: 10px }
+.lh11 { line-height: 11px }
+.lh12 { line-height: 12px }
+.lh13 { line-height: 13px }
+.lh14 { line-height: 14px }
+.lh15 { line-height: 15px }
+.lh16 { line-height: 16px }
+.lh17 { line-height: 17px }
+.lh18 { line-height: 18px }
+.lh19 { line-height: 19px }
+.lh20 { line-height: 20px }
+.lh21 { line-height: 21px }
+.lh22 { line-height: 22px }
+.lh23 { line-height: 23px }
+.lh24 { line-height: 24px }
+.lh25 { line-height: 25px }
+.lh26 { line-height: 26px }
+.lh27 { line-height: 27px }
+.lh28 { line-height: 28px }
+.lh29 { line-height: 29px }
+.lh30 { line-height: 30px }
+
+
+/* widths */
+.w100 { width: 100% !important }
+.w95 { width: 95%  !important }
+.w90 { width: 90%  !important }
+.w85 { width: 85%  !important }
+.w80 { width: 80%  !important }
+.w75 { width: 75%  !important }
+.w70 { width: 70%  !important }
+.w65 { width: 65%  !important }
+.w60 { width: 60%  !important }
+.w55 { width: 55%  !important }
+.w50 { width: 50%  !important }
+.w49 { width: 49%  !important }
+.w45 { width: 45%  !important }
+.w40 { width: 40%  !important }
+.w35 { width: 35%  !important }
+.w30 { width: 30%  !important }
+.w25 { width: 25%  !important }
+.w20 { width: 20%  !important }
+.w15 { width: 15%  !important }
+.w10 { width: 10%  !important }
+.w5  { width: 5%   !important }
+
+
+ul	{ margin: 5px 0px 5px 30px; padding: 0px }  /* Note: IE and Mozilla display UL margins differently, deal with it */
+
+
+/* list - bullets */
+#bulletList ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 8px;
+	text-indent: -1em;
+}
+#bulletList li {
+    margin-bottom: 7px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#bulletList li.nospace {
+    margin-bottom: 2px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#bulletList li.sm {
+    margin-bottom: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+/* rows for tables */
+.odd						    {	background-color : #FFFFFF;		}
+.even, .altrow	                {	background-color : #E5E5E5;		}
+.alt                            {	background-color : #EEEEEE;		}
+.dark                           {	background-color : #CCCCCC;		}
+
+td.urow, tr.urow, td.yellow, tr.yellow, td.highlightrow, tr.highlightrow    { background-color : #FFFFCC; }
+
+.row_hover          { background-color: #CFE9FF; }
+.row_hover td       { background-color: #CFE9FF; }
+
+
+.sorted             { color: #c00; }
+.sorted_header 	    { background-color: #c00; font-weight: bold; color: #ffffff; }
+
+
+div.odd {
+    background-color : #FFFFFF;	
+    padding: 5px; 
+    border: 1px solid #CCC; 
+    width: 100%; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div.even {
+    background-color : #E5E5E5;	
+    padding: 5px; 
+    border: 1px solid #CCC; 
+    width: 100%; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div.yellow {
+    background-color : #FFFFCC;	
+    padding: 5px; 
+    border: 1px solid #CCC; 
+    width: 100%; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+p.dottedLine {
+    border-bottom: 1px dashed #858585;
+    margin: 2px 0px;
+    padding: 0px;
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+}
+p.line {
+    border-bottom: 1px solid #000;
+    margin: 2px 0px 4px 0px;
+    padding: 0px;
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+}
+
+p.lightLine {
+    border-bottom: 1px solid #CCC;
+    margin: 4px 0px;
+    padding: 0px;
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+}
+
+p.dashedLine {
+    border-bottom: 1px dashed #858585;
+    margin: 2px 0px;
+    padding: 0px;
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+}
+
+.rolloverPopIn { position:absolute; margin:15px 0px 0px 50px; border:1px solid #445588; background-color:#fff; width:250px; padding:5px; display:none }
+.rolloverPopInFlushL { position:absolute; margin-top:15px; border:1px solid #445588; background-color:#fff; width:250px; padding:7px; display:none }
+.researchPopup { position:absolute; margin:5px 0px 0px 0px; right: 100px; border:1px solid #445588; background-color:#fff; width:250px; padding:7px; display:none; text-align: left; padding-right: 15px; font-size: 11px; line-height: 14px; white-space: normal; display: none }
+
+
+/* splash page styles */
+
+#splash div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#splash table {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ 
+#splash ul {
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    margin-left: 20px;
+    list-style-position: outside;
+}
+
+#splash li { padding: 2px; }
+    
+#splash .right_header {
+	background-image:	url("http://i.tsn.com/i/r/www/hdr-right.gif");
+	width:				100%;
+	height:				25px;
+    padding: 5px;
+    font:               bold 11px Verdana;
+	color:				#FFFFFF;
+}
+
+
+#splash .right_content { width: 100%; background-color: #F2F2F2; padding: 10px 5px; border: 1px solid #CCC; border-top-width: 0px; font: normal 11px Verdana  }
+#splash .left_content { width: 100%; border-top: 2px solid #054D5C; padding: 10px 5px; }
+
+
+#splash .countdown { width: 765px; margin-left: 5px; padding: 5px 5px; text-align: center;  font: normal 11px Verdana; border: 2px solid #F55; background-color: #F7F7F7; -moz-border-radius: 15px;  }
+ 
+ 
+#splash .generalTable {
+   background-color:	#CCCCCC;
+   width:				100%;
+   border:				0;
+   font-family:			Arial, Helvetica, sans-serif;
+   font-size:			11px;
+   vertical-align:		top;
+   text-align:			left;
+}
+        
+#splash .left_column  { float: left;  width: 65%; margin-left: 5px }    
+#splash .right_column { float: right; width: 32%; }    
+
+
+
+
+
+
+/*********************************************
+ ***                                       ***
+ ***            New Game Styles            *** 
+ ***                                       ***
+ *********************************************/
+
+.noborder       {border: 0px !important}
+.noborder th    {border: 0px !important}
+.noborder td    {border: 0px !important}
+
+/* info tables */
+
+.infotable      { border-collapse: collapse; width: 100%; font: normal 10px Verdana }
+.infotable td   { border: 1px solid #ccc; font: normal 10px Verdana; padding: 3px; }
+
+.infotable th              { border: 1px solid #ccc; background-color : #666; color: #FFFFFF; font-weight: bold; font-family: Verdana; font-size: inherit; padding : 3px; }
+.infotable .heading_group  { border: 1px solid #ccc; background-color : #000; color: #FFFFFF; font: bold 11px Verdana; padding : 3px; padding-left:5px; text-align:left; }
+
+
+.infotable th.sorted_header { background-color: #c00; font-weight: bold; color: #ffffff; }
+
+.infotable th a.sorted_header         { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.sorted_header:visited { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.sorted_header:hover   { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.sorted_header:active  { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: none }
+
+.infotable th a.red         { color: #F00; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.red:visited { color: #F00; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.red:hover   { color: #F00; font-size: 10px; font-weight: bold; text-decoration: none }
+.infotable th a.red:active  { color: #F00; font-size: 10px; font-weight: bold; text-decoration: none }
+
+.infotable th a.yellow         { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a.yellow:visited { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a.yellow:hover   { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a.yellow:active  { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+
+.infotable th a         { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a:visited { color: #FFF; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a:hover   { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+.infotable th a:active  { color: #FF0; font-size: 10px; font-weight: bold; text-decoration: underline }
+
+
+.infotable .tabs {
+border:none;
+text-align:left;
+padding:0px;
+padding-left:1px;
+}
+
+.infotable .tabs div {
+float:left;
+margin-right:1px;
+}
+
+
+
+/* used in the header row for Season | last week | 30day | last year | etc */
+.stat_view {
+    font: normal 10px Verdana;
+    padding: 5px; 
+    background-color: #EEE; 
+    border: 1px solid #CCC; 
+    border-bottom: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;    
+}
+
+
+.listing {
+    width: 100%;
+	font-size: 10px;
+}
+
+.listing tr td {
+    padding: 4px 2px;
+}
+
+.listing tr th {
+    padding: 2px 3px;
+    text-align: left;
+    font-weight: bold;  
+    border-bottom: 1px solid #000;
+}
+
+
+/* champions */
+
+
+#champions .infotable td { padding: 3px; border: none }
+
+#champions .infotable th { border: none }
+
+#champions .firstplace { background-color: #FACC30 !important; }
+#champions .firstplace td { padding: 0px; border: none }
+#champions .secondplace { background-color: #AFAFAD !important; }
+#champions .secondplace td { padding: 0px; border: none }
+#champions .thirdplace { background-color: #A89A84 !important; }
+#champions .thirdplace td { padding: 0px; border: none }
+
+#champions .hotplayer_row { border:1px solid #5C9453; } 
+#champions .hotplayer { color: #5C9453 } 
+
+#champions a.white:hover { color: #FFF }
+
+
+table.datatab_mid td {
+	padding : 3px;
+	vertical-align : middle;
+    font: normal 10px Verdana;
+}
+table.datatab_mid_nopad td {
+	padding : 0px;
+	vertical-align : middle;
+    font: normal 10px Verdana;
+}
+table.datatab_mid_nopad td.datatab_1stplace {
+	border-top: 1px solid #8D6C06;
+    border-bottom: 1px solid #8D6C06;
+    padding: 0px;
+    background-color: #D6A90E;
+}
+table.datatab_mid_nopad td.datatab_smpad {
+	padding: 2px 0px 2px 0px;
+}
+table.datatab_mid_nopad td.datatab_topborder {
+	border-top: 1px solid #fff;
+    padding-top: 5px;
+}
+table.datatab_mid_nopad td.datatab_hotPlayer {
+	border-top: 1px solid #5C9453;
+    border-bottom: 1px solid #5C9453;
+}
+.hotPlayer {
+    color: #5C9453;
+    font: bold 10px Verdana;
+}
+
+.graybox {
+	border : 1px solid #CCCCCC;
+	background-color : #DEDEDE !important;
+	padding : 3px 3px 3px;
+}
+
+
+
+
+
+/* form tables */
+
+table.formtable input, table.formtable select, table.formtable textarea {
+  border: 1px solid #aaa;
+}
+
+table.formtable th, table.formtable td { 
+  vertical-align: top;
+  padding-bottom:15px;
+}
+
+table.formtable th {
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: verdana;
+  border-right: 1px solid #ccc;
+}
+
+table.formtable td {
+  padding-left: 10px;
+}
+
+table.formtable input {
+ font-family: verdana;
+ font-size:12px;
+}
+
+table.formtable input[type="text"] {
+ width: 100%;
+}
+
+
+span.hint {
+  color: #888;
+  display: block;
+  font-size: .9em;
+  font-style: italic;
+  font-weight:normal;
+}
+
+
+
+.dark_header   { 
+    width: 100%; 
+    padding: 4px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-bottom: none;
+    background-color : #000; 
+    color : #FFFFFF;
+}
+
+.dark_header div a         { color: #FFF; }
+.dark_header div a:visited { color: #FFF; }
+.dark_header div a:hover   { color: #F33; }
+.dark_header div a:active  { color: #F33; }
+
+
+
+
+/* snazzy blo_nav styles */
+
+#blo_nav {
+    margin-bottom: 5px;
+}
+
+#blo_nav div {
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+
+#blo_top  { 
+    width: 100%;
+    background-color: #DDD; 
+    border: 1px solid #CCC;
+    color: #000; 
+    margin: 0px; 
+    padding: 4px 6px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    font: normal 10px Verdana;
+}
+
+
+#blo_menu {
+    float: left;
+    padding-top: 3px;
+}
+
+#blo_team {
+    float: right;
+    text-align: right;
+}
+
+#blo_nav ul  { 
+    width: 100%;
+    background-color: #DDD; 
+    border: 1px solid #CCC;
+    color: #000; 
+    margin: 0px; 
+    padding: 4px 6px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+
+#blo_nav ul li  { 
+    display: inline;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+
+#blo_nav ul.bottom  { 
+    clear: both;
+    background-color: #EEE; 
+    border-top: none;
+    display: none;
+    font: normal 10px Verdana;
+    line-height: 18px;
+    
+}
+
+ 
+#blo_top a         { color: #009; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_top a:visited { color: #009; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_top a:hover   { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_top a:active  { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+
+#blo_menu a.standard    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:visited    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:hover    { color: #C00 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.standard:active    { color: #C00 !important; font: bold 10px Verdana; text-decoration: none !important; }
+
+#blo_menu a.choice    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:visited    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:hover    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_menu a.choice:active    { color: #009 !important; font: bold 10px Verdana; text-decoration: none !important; }
+
+#blo_nav ul.bottom a         { color: #009; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:visited { color: #009; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:hover   { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+#blo_nav ul.bottom a:active  { color: #C00; font: bold 10px Verdana; text-decoration: none !important; }
+
+
+
+
+
+#messages ul { color: #c00; font-weight: bold; margin-top: 0px; margin-bottom: 0px; }
+#messages { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; background-color: #FFC; }
+
+
+.top_box {           /* for yellow box at the top of front offices. put this in a container div with class tcenter */
+    font: normal 12px Verdana; 
+    background-color: #FFFFCC; 
+    width: 85%; 
+    border: 1px solid black; 
+    text-align: center; 
+    padding: 5px; 
+    margin: 0px auto; 
+    line-height: 16px
+}
+
+
+
+/*********************************************
+ ***                                       ***
+ ***            Salary Cap Styles          *** 
+ ***                                       ***
+ *********************************************/
+
+ 
+/* nav related classes */
+
+.nav_top {
+	background-color : #000066;
+	width : 746px;
+}
+
+.nav_bottom {
+	background-color : #CCCCFF;
+	width : 746px;
+}
+
+
+/* table specific classes */
+.datatab {
+	border : 0px solid #DEDEDE;
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	background-color : #CCCCCC;
+	font-size : 10px;
+	width : 100%;
+}
+
+.datatab_fix {
+	border : 0px solid #DEDEDE;
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	background-color : #CCCCCC;
+	font-size : 10px;
+	width : 100%;
+	table-layout : fixed;
+}
+
+.datatab_nobord {
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	padding : 0px 0px 0px;
+	width : 100%;
+}
+
+.datatab_nowidth {
+	border : 0px solid #DEDEDE;
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	background-color : #CCCCCC;
+	font-size : 10px;
+}
+
+.datatab_w50 {
+	border : 0px solid #DEDEDE;
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	background-color : #CCCCCC;
+	font-size : 10px;
+	width : 50%;
+}
+
+.datatab_nobord_nowidth {
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	padding : 0px 0px 0px;
+}
+
+
+
+.datatab th, .datatab_fix th, .datatab_nowidth th, .datatab_w50 th {
+	font : bold 10px Verdana;
+	color : #FFFFFF;
+	background-color : #444;
+	padding : 3px;
+}
+
+
+
+table.datatab td, table.datatab_fix td, table.datatab_nowidth td, table.datatab_w50 td {
+	padding : 3px;
+	vertical-align : top;
+    font: normal 10px Verdana;
+}
+
+table.datatab_nobord td {
+	font-family : verdana, arial, helvetica;
+	color : #000000;
+	padding : 3px 3px 3px;
+	font-size : 10px;
+	vertical-align : top;
+}
+
+
+
+
+
+/* champions */
+table.datatab_mid td {
+	padding : 3px;
+	vertical-align : middle;
+    font: normal 10px Verdana;
+}
+table.datatab_mid_nopad td {
+	padding : 0px;
+	vertical-align : middle;
+    font: normal 10px Verdana;
+}
+table.datatab_mid_nopad td.datatab_1stplace {
+	border-top: 1px solid #8D6C06;
+    border-bottom: 1px solid #8D6C06;
+    padding: 0px;
+    background-color: #D6A90E;
+}
+table.datatab_mid_nopad td.datatab_smpad {
+	padding: 2px 0px 2px 0px;
+}
+table.datatab_mid_nopad td.datatab_topborder {
+	border-top: 1px solid #fff;
+    padding-top: 5px;
+}
+table.datatab_mid_nopad td.datatab_hotPlayer {
+	border-top: 1px solid #5C9453;
+    border-bottom: 1px solid #5C9453;
+}
+.hotPlayer {
+    color: #5C9453;
+    font: bold 10px Verdana;
+}
+
+.graybox {
+	border : 1px solid #CCCCCC;
+	background-color : #DEDEDE !important;
+	padding : 3px 3px 3px;
+}
+
+
+
+/* div specific classes */
+div.databox {
+	position : relative;
+	border : 2px solid #DEDEDE;
+	background-color : #FFFFFF;
+	width : auto;
+	padding : 3px;
+	text-align : center;
+}
+
+div.databox_tleft {
+	position : relative;
+	border : 2px solid #DEDEDE;
+	background-color : #FFFFFF;
+	width : auto;
+	padding : 3px;
+	text-align : left;
+}
+
+div.databox_yellow {
+	position : relative;
+	border : 2px solid #DEDEDE;
+	background-color : #FFFFCC;
+	width : auto;
+	padding : 3px 3px 3px 3px;
+	text-align : center;
+}
+
+div.databox_nobord {
+	position : relative;
+	background-color : #FFFFFF;
+	width : auto;
+	text-align : center;
+}
+
+div.databox_nobord_tleft {
+	position : relative;
+	background-color : #FFFFFF;
+	width : auto;
+	text-align : left;
+}
+
+.databox_header {
+	background-color : #000000;
+	color : #FFFFFF;
+    font: bold 11px Verdana !important;
+	padding : 3px;
+}
+
+
+.databox_header a:link 		{font: bold 11px Verdana; color: #fff; text-decoration: underline }    /* white */
+.databox_header a:visited 	{font: bold 11px Verdana; color: #fff; text-decoration: underline }    /* white */
+.databox_header a:hover 	{font: bold 11px Verdana; color: #ff0; text-decoration: underline }    /* yellow */
+.databox_header a:active 	{font: bold 11px Verdana; color: #ff0; text-decoration: underline }    /* yellow */
+
+
+.nav_strip {
+	background-color : #DEDEDE;
+	padding : 2px;
+}
+
+
+/* footer classes */
+.foot_strip {
+	background-color : #E6E6E6;
+	font-size : 10px;
+	padding : 1px 2px 0px 2px;
+	margin : 0px 0px 0px 0px;
+}
+
+
+
+
+
+/*********************************************
+ ***                                       ***
+ ***               DNT Styles              *** 
+ ***                                       ***
+ *********************************************/
+ 
+ 
+
+/********  tabs  ***********/
+
+.tab {
+    color: #000;
+	font-size: 11px;
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+.tab td {
+    padding: 3px 7px 3px 5px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.tab td.active {
+    color: #fff;
+    background-color: #444;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #eee;
+}
+
+.tab td.inactive {
+    color: #eee;
+    background-color: #ccc;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.tab td a:link 		{color: #000; text-decoration: none; }
+.tab td a:visited 	{color: #000; text-decoration: none; }
+.tab td a:hover 	{color: #e00; text-decoration: none; }
+.tab td a:active 	{color: #e00; text-decoration: none; }
+.tab td.active a:link 		{color: #fff; text-decoration: none; }
+.tab td.active a:visited 	{color: #fff; text-decoration: none; }
+.tab td.active a:hover 	    {color: #e00; text-decoration: none; }
+.tab td.active a:active 	{color: #e00; text-decoration: none; }
+
+
+
+
+
+
+.tabimage a:link 			{ text-decoration: none; color: #003 			}
+.tabimage a:visited 	{ text-decoration: none; color: #003 			}
+.tabimage a:hover 		{ text-decoration: underline; color: #003 }
+
+.tabimage {
+	text-align: left;
+	position : relative;
+	float: left;
+	height: 19px;
+	background: url(http://fantasygames.sportingnews.com/images/crs/nav_tab_corner_right.gif) top right no-repeat;
+	background-color: #CCC;
+	padding: 2px 15px 0px 8px;
+	margin: 0px 0px 0px 0px;
+	font: normal 12px Verdana;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+}
+
+.tabimage_on {
+	text-align: left;
+	position : relative;
+	float: left;
+	height: 19px;
+	background: url(http://fantasygames.sportingnews.com/images/crs/nav_tab_corner_right.gif) top right no-repeat;
+	background-color: #444;
+	padding: 2px 15px 0px 8px;
+	margin : 0px;
+	color: #FFFFFF;
+	font-weight : bold;
+	font: bold 12px Verdana;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.tabimage_long {
+	text-align: left;
+	position: relative;
+	color: #FFFFFF;
+	float: left;
+	height: 16px;
+	background: url(http://fantasygames.sportingnews.com/images/crs/nav_tab_corner_right.gif) top right no-repeat;
+	background-color: #006;
+	padding: 2px 15px 0px 8px;
+	margin: 0px  0px 0px 0px;
+	text-indent: 5px;
+	font: bold 12px Verdana;
+}
+
+.tabimage_border {
+	text-align: left;
+	position : relative;
+	float : left;
+	background: url(http://fantasygames.sportingnews.com/images/crs/nav_tab_corner_right.gif) top right no-repeat;
+	background-color: #444;
+	padding : 4px 15px 3px 8px;
+	margin : 0px;
+	color : #FFFFFF;
+	font : bold 12px Verdana;
+}
+
+
+.tab_link {
+	float: right;
+	font: normal 10px Verdana;
+	padding-top: 5px;
+}
+
+.tab_border {
+	clear: both;
+	border-top: 3px solid #444;
+	margin-top: -1px;
+}
+
+/********  Stat Tables  ***********/
+
+.stats {
+	border: none;
+	background-color: #CCC;
+	width: 100%;
+	text-align: left;
+	font: normal 10px Verdana;
+	}
+
+.stats th {
+	font: bold 10px Verdana;
+	color: #FFF;
+}
+
+.stats th a:link 			{color: #fff}
+.stats th a:visited 	{color: #fff}
+.stats th a:hover 		{color: #ff0}
+.stats th a:active 		{color: #ff0}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************************************
+*
+*	                                              ids
+*
+*********************************************************************************************/
+
+#header {
+	width : 770px;
+}
+
+#center {
+	margin : 0px 2px 0px 2px ; 
+	width : 766px;
+	clear : both;
+}
+
+#footer {
+	width : 770px;
+	clear : both;
+}
+
+#masthead {
+	clear : both;
+}
+
+#navigation {
+	clear : both;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------- 
+
+                        Account page styles
+
+classes horizontalMenuHead and horizontalMenuBody can be filled 
+in by user to control fonts, colors, padding, alignment, etc.   
+horizontalMenuHeadSelected A is assigned to the selected option 
+in the header row.                                              
+ --------------------------------------------------------------- */
+	
+	.horizontalMenuHead
+	{
+	   padding: 0px 1px;
+	   color:		white;
+	}
+	
+	.horizontalMenuHead a, .horizontalMenuHead TD
+	{
+	   color:            #FFFFFF;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}	
+	
+	.horizontalMenuHead a:visited
+	{
+	   color:            #FFFFFF;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}	
+	
+	.horizontalMenuHead a:hover
+	{
+	   color:            #FFFFFF;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}	
+	
+	.horizontalMenuHead a:active
+	{
+	   color:            #FFFFFF;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}
+	
+	
+	.horizontalMenuHeadSelected A
+	{
+	   padding:          0px;
+	   color:            white;
+	}
+	
+	.horizontalMenuBody
+	{
+	   background-color: #DCDCDC;
+	   padding:          2px;
+	   color:            #000000;
+	}
+	
+	.horizontalMenuBody a
+	{
+	   color:            #000000;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}	
+	
+	.horizontalMenuBody a:visited
+	{
+	   color:            #000000;
+	   font-family:      arial;
+	   font-size:        11px;
+	   font-weight:      bold;
+	   text-decoration:  none;
+	}
+	
+	.scrollbox 
+	{
+		width:			236px;
+		height:			185px;
+		overflow: 		auto;
+		border:			1px solid #666666;
+	}
+	
+	.plainbox 
+	{
+		width:			236px;
+		height:			185px;
+		overflow: 		auto;
+		text-align:		center;
+	}
+
+	
+	
+	
+	
+	
+/********************************************************************
+
+    The rest of these are old, ugly, and need to be removed asap 
+
+*********************************************************************/
+
+
+.DROP, .drop {width: 130px; background-color: #F1F3E8; font-size:11px; font-family: verdana, arial, helvetica}
+.DROP2, .drop2 {width: 150px; background-color: #EBEDDE; font-size:10px; font-family: verdana, arial, helvetica}
+.TIMEBOX, .timebox {width: 220px; background-color: #F1F3E8; font-size:10px; font-family: verdana, arial, helvetica}
+.send, .send {width: 90px; background-color: #F1F3E8; font-size:10px; font-family: verdana, arial, helvetica}
+.HEADLINE, .headline {color: #990000; font-size: 24px; font-family: arial, helvetica; font-weight: bold}
+.HEADLINE18, .headline18 {color: #990000; font-size: 18px; font-family: arial, helvetica; font-weight: bold}
+.BKHEADLINE, .bkheadline {color: #000000; font-size: 24px; font-family: arial, helvetica; font-weight: bold}
+.TEAMS, .teams {background-color: #F1F3E8; font-size:11px; font-family: verdana, arial, helvetica}
+.LINK, .link {font-size: 20px; font-family: verdana, arial, helvetica}
+.SC, .sc {font-size: 11px; font-family: verdana, arial, helvetica; color: #000000}
+.SELECTBOX, .selectbox {width: 60px; background-color: #E3E2CE; font-size:11px; font-family: verdana, arial, helvetica}
+.HEAD2, .head2 {color: #990000; font-size: 20px; font-family: arial, helvetica; font-weight: bold}
+.HEAD3, .head3 {color: #000000; font-size: 30px; font-family: arial, helvetica; font-weight: bold}
+.HEAD4, .head4 {color: #666666; font-size: 18px; font-family: arial, helvetica; font-weight: bold}
+.HEAD5, .head5 {color: #000000; font-size: 20px; font-family: arial, helvetica; font-weight: bold}
+.HEAD6, .head6 {color: #666666; font-size: 15px; font-family: arial, helvetica; font-weight: bold}
+.SUBHEAD, .subhead {color: #990000; font-size: 16px; font-family: arial, helvetica; font-weight: bold}
+.BLACKHEAD, .blackhead {color: #000000; font-size: 16px; font-family: arial, helvetica; font-weight: bold}
+.SMALLHEAD, .smallhead {color: #990000; font-size: 13px; font-family: arial, helvetica; font-weight: bold}
+.SMALLBK, .smallbk {color: #000000; font-size: 14px; font-family: arial, helvetica; font-weight: bold}
+.TEXT, .text {color: #000000; font: normal 11px Verdana}
+.TEXTTEST, .texttest {color: #000000; font-size: 1em; font-family: arial}
+.V3, .v3 {font-size: 3px; font-family: arial, helvetica}
+.VBN10, .vbn10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #000000; font-weight: bold; text-decoration:none}
+.VN10, .vn10 {font-size: 10px; font-family: verdana, arial, helvetica; text-decoration:none; color: #000000}
+.VBL10, .vbl10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #000099; text-decoration:none}
+.VBP10, .vbp10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #0033FF}
+.VW10, .vw10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #FFFFF7; text-decoration:none}
+.VWB10, .vwb10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #FFFFF7; font-weight: bold}
+.VWL10, .vwl10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #FFFFF7}
+.VG10, .vg10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #CCCC99; text-decoration:none}
+.VBG10, .vbg10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #CCCCCC; font-weight: bold; text-decoration:none}
+.VBLU10, .vblu10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #0033FF; text-decoration:none}
+.VP10, .vp10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #9999CC; text-decoration:none}
+.VPL10, .vpl10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #CCCCFF; text-decoration:none}
+.VR10, .vr10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #990000; text-decoration:none}
+.VT10, .vt10 {font-size: 10px; font-family: verdana, arial, helvetica; color: #D1D2BB; text-decoration:none}
+.V11, .v11 {font-size: 11px; font-family: verdana, arial, helvetica}
+.V11B, .v11b {font-size: 11px; font-weight: bold; font-family: verdana, arial, helvetica}
+.VBN11, .vbn11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #000000; font-weight: bold; text-decoration:none}
+.VG11, .vg11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #CCCC99; text-decoration:none; font-weight: bold}
+.VWB11, .vwb11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #FFFFF7; font-weight: bold; text-decoration:none}
+.VW11, .vw11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #FFFFF7}
+.VT11, .vt11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #D1D2BB; text-decoration:none}
+.VP11, .vp11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #9999CC; text-decoration:none}
+.VPL11, .vpl11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #CCCCFF; text-decoration:none}
+.VBLU11, .vblu11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #0033FF; text-decoration:none}
+.VUL11, .vul11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #FFCC00; text-decoration:none}
+.VN11, .vn11 {font-size: 11px; font-family: verdana, arial, helvetica; text-decoration:none; color: #000000}
+.VB11, .vb11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #000000; font-weight: bold}
+.VBL11, .vbl11 {font-size: 11px; font-family: verdana, arial, helvetica; color: #0033FF}
+.A10, .a10 {font-size: 10px; font-family: arial, verdana, helvetica}
+.AB12, .ab12 {font-size: 12px; font-family: arial, helvetica; color: #000000; text-decoration:none; font-weight: bold}
+.ABW12, .abw12 {font-size: 12px; font-family: arial, helvetica; color: #FFFFF7; text-decoration:none; font-weight: bold}
+.ABL12, .abl12 {font-size: 12px; font-family: arial, helvetica; color: #000066; text-decoration:none; font-weight: bold}
+.V12, .v12 {font-size: 12px; font-family: verdana, arial, helvetica}
+.VB12, .vb12 {color: #000000; font-size: 12px; font-family: verdana, arial, helvetica; font-weight: bold; text-decoration: none}
+.VP12, .vp12 {color: #CCCCFF; font-size: 12px; font-family: verdana, arial, helvetica; text-decoration: none}
+.VG12, .vg12 {font-size: 12px; font-family: verdana, arial, helvetica; color: #CCCCCC; text-decoration:none; font-weight: bold}
+.VBW12, .vbw12 {font-size: 12px; font-family: verdana, arial, helvetica; color: #FFFFF7; text-decoration:none; font-weight: bold}
+.V13, .v13 {color: #000000; font-size: 13px; font-family: verdana, arial, helvetica; text-decoration: none}
+.VR13, .vr13 {color: #990000; font-size: 13px; font-family: verdana, arial, helvetica; font-weight: bold; text-decoration: none}
+.VW13, .vw13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #FFFFF7; text-decoration:none}
+.VB13, .vb13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #000000; text-decoration:none}
+.VBD13, .vbd13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #000000; text-decoration:none; font-weight: bold}
+.VBL13, .vbl13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #000099; text-decoration:none}
+.VBT12, .vbt12 {font-size: 12px; font-family: verdana, arial, helvetica; color: #E3E2CF; text-decoration:none; font-weight: bold}
+.VBT13, .vbt13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #E3E2CF; text-decoration:none; font-weight: bold}
+.VBL13, .vbl13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #000066; text-decoration:none; font-weight: bold}
+.VWL13, .vwl13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #FFFFF7}
+.VBW13, .vbw13 {font-size: 13px; font-family: verdana, arial, helvetica; color: #FFFFF7; text-decoration:none; font-weight: bold}
+.AB14, .ab14 {font-size: 14px; font-family: arial, helvetica; color: #000000; text-decoration:none; font-weight: bold}
+.VBL14, .vbl14 {font-size: 14px; font-family: verdana, arial, helvetica; color: #0033FF; font-weight:bold; text-decoration:none}
+.VBT14, .vbt14 {font-size: 14px; font-family: verdana, arial, helvetica; color: #E3E2CF; text-decoration:none; font-weight: bold}
+.VB15, .vb15 {font-size: 15px; font-family: verdana, arial, helvetica; color: #000000; font-weight:bold; text-decoration:none}
+.NAVB14, .navb14 {font-size: 14px; font-family: verdana, arial, helvetica; color: #000000; text-decoration:none; font-weight: bold}
+.NAVW14, .navw14 {font-size: 14px; font-family: verdana, arial, helvetica; color: #FFFFF7; font-weight: bold; text-decoration:none}
+.NAVY14, .navy14 {font-size: 14px; font-family: verdana, arial, helvetica; color: #FFFF77; font-weight: bold; text-decoration:none}
+.A16B, .a16b {font-size: 16px; font-family: arial, helvetica; color: #000000; text-decoration:none; font-weight: bold}
+
+a.mlb,a.nfl:link {font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #ccf}
+a.mlb,a.nfl:visited {font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #ccf}
+a.mlb,a.nfl:hover {font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #ccf}
+a.mlb,a.nfl:active {font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #ccf}
+
+A.blackhead:ACTIVE {
+	color: #20190B;
+	font-family: arial,helvetica; 
+	font-weight:bold
+}
+
+A.blackhead:LINK {
+	color:#20190B;
+	font-family: arial,helvetica; 
+	font-weight:bold
+}
+
+A.blackhead:VISITED {
+	color:#20190B;
+	font-family: arial,helvetica; 
+	font-weight:bold
+}
+
+ .nav {
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color : #FFFFFF;
+	background-color : #000000;
+}
+
+ .nav2 {
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight : normal;
+	color : #FFFFFF;
+	line-height : 17px;
+	background-color : #666666;
+}
+
+/* ultimate nav styles */
+.whtbg
+	{
+	background: #dddddd;
+	background-color: #dddddd;
+	font-weight: bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+	
+/*black links*/
+A.nav3:VISITED {
+	color : #000000;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-style : normal;
+	text-decoration : none;
+	background: #dddddd;
+	background-color: #dddddd;
+}
+/*black links*/
+A.nav3:LINK {
+	color : #000000;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-style : normal;
+	text-decoration : none;
+	background: #dddddd;
+	background-color: #dddddd;
+}
+
+.alttitlebl{
+	color : #000000;
+	background-color : #000000;
+	background : #000000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+/* end ultimate nav styles */
+
+ 
+
+.text10br {
+	color : #CC0000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.text11br {
+	color : #CC0000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+
+.alttext10 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #333333;
+	background-color : #FFFFFF;
+}
+
+.alttext10i {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #333333;
+	background-color : #FFFFFF;
+	font-style: italic;
+}
+
+.alttext10radio{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #eeeeee;
+	color: #eeeeee;
+}
+
+
+.title {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color : #20190B;
+	font-weight : bold;
+}
+
+.title11 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color : #20190B;
+	font-weight : bold;
+}
+
+.alttitle {
+	color : #FFFFFF;
+	background : #000000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+
+.alttitle11 {
+	color : #FFFFFF;
+	background : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+.alttitle10 {
+	color : #FFFFFF;
+	background : #000000;
+    font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+.alttitle9gray {
+	color : #FFFFFF;
+	background : #858585;
+    font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+}
+.alttitle9graypad {
+	color : #FFFFFF;
+    padding:3px 2px 3px 7px;
+	background : #858585;
+    font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+}
+
+.errorhead {
+	color : #cc0000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+.ar12, .AR12 {
+	color : #cc0000;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+
+.text10b{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	font-weight : bold;
+}
+
+.text14b{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	font-weight : bold;
+}
+
+.BLACK, .black {
+	font-family : verdana, arial, helvetica; 
+	color : #000000 !important;
+}
+
+a.BLACK {
+    text-decoration: underline;
+}
+
+
+
+.altrowb {
+	background-color : #EBEDDE;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size:10px;
+	color: #000000;
+}
+
+.text10y {
+	background-color : #FFFFCE;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #000000;
+}
+
+.bkgd_red {
+	background-color : #FF9999;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #000000;
+}
+
+.bkgd_green {
+	background-color : #99FF99;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #000000;
+}
+
+
+.text10blr {
+	color : red;
+	font: bold 10px Verdana
+}
+
+.text10blr:link, .text10blr:active, .text10blr:visited, .text10blr:hover  {
+	color : red;
+	font: bold 10px Verdana
+}

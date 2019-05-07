@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript" src="position.js"></script>
+<script type="text/javascript" src="twcolorpick.js"></script>
+<link href="twcolorpick.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+
+function colorme(e)
+{
+	e.style.backgroundColor=$(color_input).value;
+	var small = $(e).id + "_s";
+	$(small).style.backgroundColor=e.style.backgroundColor;
+}
+
+function canavas()
+{
+	var canavasDiv = "<div id='BackgroundColorContainer'><div id='canavas'>";
+	for(index=0;index < 256;index++)
+	{
+		canavasDiv = canavasDiv + "<div id='canavas_box_" + index + "' class='canavas_box' name='canavas_box' onClick='colorme(this);' value='" + index +  "'></div>";
+	}
+	canavasDiv += "</div></div>";
+	document.write(canavasDiv);
+}
+
+function canavasSmall()
+{
+	var canavasDiv = "<div id='small'>";
+	for(index=0;index < 256;index++)
+	{
+		canavasDiv = canavasDiv + "<div id='canavas_box_" + index + "_s' class='canavas_box_s' name='canavas_box_s'></div>";
+	}
+	canavasDiv += "</div>";
+	document.write(canavasDiv);
+}
+
+
+function check_color()
+{
+	if($('gridBox'))
+	{
+		Event.observe('gridBox','click',colorpick,false);
+	}
+}
+
+function sendCanavas()
+{
+	var canavas_data = $("canavasData");
+	canavas_data.value = "?canavas_data=";
+	var Data = $$("div#canavas .canavas_box");
+	for(var index=0;index< Data.length;index++)
+	{
+		if(Data[index].style.backgroundColor == "" || Data[index].style.backgroundColor == null)
+			Data[index].style.backgroundColor = "#ffffff";
+		canavas_data.value = canavas_data.value + "+" + Data[index].style.backgroundColor;
+	}
+	alert(canavas_data.value);
+}
+
+function clearCanavas()
+{
+	var big = $$("div#canavas .canavas_box");
+	var small = $$("div#small .canavas_box_s");
+	for(var index=0;index< big.length;index++)
+	{
+		big[index].style.backgroundColor = "#ffffff";
+	}
+	for(var index=0;index< small.length;index++)
+	{
+		small[index].style.backgroundColor = "#ffffff";
+	}
+}
+
+
+</script>
+
+</head>
+<body onLoad="check_color();">
+
+<p>§Ú¬OÁY¹Ï</p>
+<script type="text/javascript">
+canavasSmall();
+
+</script>
+<P><input id="color_input" name="color_input" type="text"><input id="color_button" name="color_button" type="button" onClick="showColorPick(this,'color_button','color_input');" value="Click me!" ></p>
+<script type="text/javascript">
+canavas();
+</script>
+
+<input type="hidden" name="canavasData" id="canavasData" />
+<input type="button" value="send!" onClick="sendCanavas();" />
+<input type="button" value="clear!" onClick="clearCanavas();" />
+</body>
+</html>

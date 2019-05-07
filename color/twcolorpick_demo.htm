@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript" src="position.js"></script>
+<script type="text/javascript" src="twpainter.js"></script>
+<link href="twcolorpick.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+
+function colorme(e)
+{
+	if(e.style.backgroundColor=="" || e.style.backgroundColor==null)
+		e.style.backgroundColor="#ffffff";
+	if(ff) 
+		e.style.backgroundColor=rgbToHex(e.style.backgroundColor);
+	if(e.style.backgroundColor==$("color_input").value)
+		e.style.backgroundColor="#ffffff";
+	else
+		e.style.backgroundColor=$("color_input").value;
+	var small = $(e).id + "_s";
+	$(small).style.backgroundColor=e.style.backgroundColor;
+}
+
+function BrushIt(here)
+{
+	if($(here).style.backgroundColor=="" || $(here).style.backgroundColor==null)
+		$(here).style.backgroundColor="#ffffff";
+	if(ff) 
+		$(here).style.backgroundColor=rgbToHex($(here).style.backgroundColor);
+	if($(here).style.backgroundColor==$("color_input").value)
+		$(here).style.backgroundColor="#ffffff";
+	else
+		$(here).style.backgroundColor=$("color_input").value;
+	var small = $(here).id + "_s";
+	$(small).style.backgroundColor=$(here).style.backgroundColor;
+}
+
+function check_color()
+{
+	if($('gridBox'))
+	{
+		Event.observe('gridBox','click',colorpick,false);
+	}
+	
+	$('canavas').onmousedown = BrushDown;
+	$('canavas').onmouseup = BrushUp;
+	$('canavas').onmouseover = Brush;
+	$('canavas').onmousemove = BrushMove;
+	
+}
+
+function sendCanavas()
+{
+	var canavas_data = $("canavasData");
+	canavas_data.value = "str=";
+	var Data = $$("div#canavas .canavas_box");
+	for(var index=0;index< Data.length;index++)
+	{
+		if(Data[index].style.backgroundColor == "" || Data[index].style.backgroundColor == null)
+			Data[index].style.backgroundColor = "#ffffff";
+		canavas_data.value = canavas_data.value + Data[index].style.backgroundColor +"+";
+	}
+	
+	var url = "../tool_makepic.php";
+	var pars = canavas_data.value;
+	var myAjax   = new Ajax.Request(
+	    url,
+	    {
+	        method : 'post',
+	        parameters : pars,
+	        onComplete : ShowResult,
+	        onFailure : function(){
+	        alert('連線失敗!');
+	        }
+	    }
+    );
+	
+}
+
+function ShowResult(originalRequest){
+	var getRet = originalRequest.responseText;
+	if (getRet == "OK"){
+		alert("成功");
+	} else {
+		alert(getRet);
+	}
+}
+
+function clearCanavas()
+{
+	var big = $$("div#canavas .canavas_box");
+	var small = $$("div#small .canavas_box_s");
+	for(var index=0;index< big.length;index++)
+	{
+		big[index].style.backgroundColor = "#ffffff";
+	}
+	for(var index=0;index< small.length;index++)
+	{
+		small[index].style.backgroundColor = "#ffffff";
+	}
+}
+
+
+
+
+
+</script>
+
+</head>
+<body onLoad="check_color();">
+
+<p>我是縮圖</p>
+<script type="text/javascript">
+CreateSmallCanavas();
+</script>
+<P><input type="text" id="color_input" name="color_input" /></p>
+<script type="text/javascript">
+CreateColorPanel();
+</script>
+
+<div style="clear:both;"></div>
+<script type="text/javascript">
+CreateCanavas();
+</script>
+
+<input type="hidden" name="canavasData" id="canavasData" />
+<input type="button" value="send!" onClick="sendCanavas();" />
+<input type="button" value="clear!" onClick="clearCanavas();" />
+</body>
+</html>
